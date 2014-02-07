@@ -18,6 +18,7 @@ public class SkorozvonTests  extends TestBase{
  *
  */	
 LoginPage loginpage;
+AccountPage accountPage;
 
 @Parameters({ "path" })
 @BeforeClass
@@ -25,16 +26,16 @@ public void testInit(String path) {
 	// Load the page in the browser
 	driver.get(baseUrl + path);
 	loginpage = PageFactory.initElements(driver, LoginPage.class);
+	
 }
 	@Test
 	public void testLogin() throws Exception  {			
 		driver.get(baseUrl);
 		loginpage.enterEmail("stqa.gm@gmail.com");
 		loginpage.enterPassword("162534");
-		loginpage.clickLogin();
+		loginpage.clickLogin();		
 		
-		AccountPage accountPage = PageFactory.initElements(driver, AccountPage.class);
-		Assert.assertTrue(accountPage.isPageOpened());
+	
 				
 	}
 	

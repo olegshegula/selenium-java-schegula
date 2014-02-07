@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="95756" started-at="2014-02-07T12:48:39Z" finished-at="2014-02-07T12:50:15Z">
+  <suite name="Default suite" duration-ms="32043" started-at="2014-02-07T14:37:45Z" finished-at="2014-02-07T14:38:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="95756" started-at="2014-02-07T12:48:39Z" finished-at="2014-02-07T12:50:15Z">
+    <test name="Default test" duration-ms="32043" started-at="2014-02-07T14:37:45Z" finished-at="2014-02-07T14:38:17Z">
       <class name="com.shegula.pages.SkorozvonTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.shegula.pages.SkorozvonTests@3b8c282a]" name="init" is-config="true" duration-ms="28505" started-at="2014-02-07T14:48:39Z" finished-at="2014-02-07T14:49:07Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.shegula.pages.SkorozvonTests@13417588]" name="init" is-config="true" duration-ms="10914" started-at="2014-02-07T16:37:45Z" finished-at="2014-02-07T16:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testInit(java.lang.String)[pri:0, instance:com.shegula.pages.SkorozvonTests@3b8c282a]" name="testInit" is-config="true" duration-ms="44173" started-at="2014-02-07T14:49:07Z" finished-at="2014-02-07T14:49:52Z">
+        <test-method status="PASS" signature="testInit(java.lang.String)[pri:0, instance:com.shegula.pages.SkorozvonTests@13417588]" name="testInit" is-config="true" duration-ms="3471" started-at="2014-02-07T16:37:56Z" finished-at="2014-02-07T16:37:59Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInit -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.shegula.pages.SkorozvonTests@3b8c282a]" name="testLogin" duration-ms="23047" started-at="2014-02-07T14:49:52Z" finished-at="2014-02-07T14:50:15Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.shegula.pages.SkorozvonTests@13417588]" name="testLogin" duration-ms="17618" started-at="2014-02-07T16:37:59Z" finished-at="2014-02-07T16:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shegula.pages.SkorozvonTests@3b8c282a]" name="tearDown" is-config="true" duration-ms="2605" started-at="2014-02-07T14:50:15Z" finished-at="2014-02-07T14:50:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shegula.pages.SkorozvonTests@13417588]" name="tearDown" is-config="true" duration-ms="724" started-at="2014-02-07T16:38:17Z" finished-at="2014-02-07T16:38:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
