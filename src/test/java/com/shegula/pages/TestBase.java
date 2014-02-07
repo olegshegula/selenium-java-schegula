@@ -22,7 +22,7 @@ import com.shegula.webdriver.WebDriverFactory;
 /*
  * Base class for all the test classes
  * 
- * @author Sebastiano Armeli-Battana
+ * @author Oleg
  */
 
 public class TestBase {
