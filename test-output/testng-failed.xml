@@ -9,7 +9,6 @@
           <include name="init"/>
           <include name="tearDown"/>
           <include name="testLogin"/>
-          <include name="testInit"/>
         </methods>
       </class> <!-- com.shegula.pages.SkorozvonTests -->
     </classes>
