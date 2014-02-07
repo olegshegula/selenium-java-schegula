@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 /*
  * Abstract class representation of a Page in the UI. Page object pattern
  * 
- * @author Sebastiano Armeli-Battana
+ * @author 
  */
 public abstract class Page {
 
