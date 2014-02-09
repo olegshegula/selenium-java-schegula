@@ -33,7 +33,7 @@ public void testInit(String path) {
 		driver.get(baseUrl);
 		loginpage.enterEmail("stqa.gm@gmail.com");
 		loginpage.enterPassword("162534");
-		loginpage.clickLogin();		
+		//loginpage.clickLogin();		
 		
 	
 				
