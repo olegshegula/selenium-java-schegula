@@ -1,5 +1,6 @@
 package com.shegula.pages;
 
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 
 /*
@@ -26,6 +27,20 @@ public abstract class Page {
 
 	public String getTitle() {
 		return webDriver.getTitle();
+	}
+	
+	public Page ensurePageLoaded(){
+		return this;
+		
+	}
+	
+	public boolean waitPageLoaded(){
+		try {
+			ensurePageLoaded();
+			return true;
+		} catch (TimeoutException to) {
+			return false;
+		}
 	}
 
 }
